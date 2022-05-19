@@ -4,3 +4,7 @@ h1{
 p{
     color: green;
 }
+h2{
+    color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
