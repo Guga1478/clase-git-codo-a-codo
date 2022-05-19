@@ -14,6 +14,34 @@
 <main>
     <h2>Lorem ipsum dolor sit.</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <div class="container" id="log-in-form">
+        <div class="heading">
+            <h1>Log In Sistema de Gestion</h1>              
+        </div>
+            <form method="POST" action="">
+            <div class="form-group" >
+                <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="contra" id="contra" placeholder="Enter password">
+            </div>
+            <div class="form-group form-group-btn">
+                <button type="button" name="btnIngresar" class="btn btn-success btn-md" onclick="validar()"><a href="inicio.html" style="text-decoration: none; color: white;"> Log In</a></button>
+            </div>
+            <div class="checks">
+            <div class="clearfix"></div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me</label>
+            </div>
+            <div class="clearfix"></div>
+            <div class="notuser">
+                <label>
+                    <p><a href="alta.html">No estoy registrado</a></p></label>
+            </div>
+        </div>
+        </form>
+</div>
 </main>
 <footer>
     &copy; 2022
